@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://github.com/Urielxdpro25/primer-repositorio.git">
+</head>
+
+<body>
+    <script>
+                 var arreglo=[1,"azucar","yerba "]
+                 for(let i =0; i<arreglo.length;i++){
+         document.write(arreglo[i]+" ,")
+                }
+        
+                 var arreglo2=[]
+                 for(let i =0; i<5 ; i++){
+                     arreglo2[i]=prompt("cargar nombres")
+                 }
+                 document.write(arreglo2.join(` `))
+
+                 var arreglo3=[]
+                 for(let i =0; i<5 ; i++){
+                    arreglo3[i]=parseFloat(prompt("cargar float"))
+                 }
+                  document.write(arreglo3.join(` `))
+
+                    var arreglo4=[]
+                 for(let i =0; i<5 ; i++){
+                     arreglo4[i]=parseInt(prompt("cargar numeros"))
+                 }
+                document.write(arreglo4.join(` `))
+
+        var arreglo5 = [" lapiz ", " tijera ", " marcador ", " reglas "]
+        document.write(arreglo5.join(``) + "<br>")
+        arreglo5.unshift("mochila")
+        document.write(arreglo5.join(``))
+
+        var arreglo6 = [" goma ", " compas ", " marcador ", " reglas "]
+        document.write(arreglo6.join(``) + "<br>")
+        arreglo6.push("mochila")
+        document.write(arreglo6.join(``))
+
+        var arreglo7 = [" goma ", " compas ", " marcador ", " reglas "]
+        document.write(arreglo7.join(``) + "<br>")
+        arreglo7.pop("")
+        document.write(arreglo7.join(``))
+
+        var arreglo8 = [" goma ", " compas ", " marcador ", " reglas "]
+        document.write(arreglo8.join(``) + "<br>")
+        arreglo8.shift("")
+        document.write(arreglo8.join(``))
+    </script>
+
+</body>
+
+</html>
